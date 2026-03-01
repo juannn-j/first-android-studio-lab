@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gestion 502</string>
+    <string name="developer">Juan Franklin</string>
+    <string name="desarrollo">Desarrollado por:</string>
+    <string name="version">Version 1.0.0</string>
+    <!-- Login -->
+    <string name="titulo_login">Login</string>
+    <string name="lbl_usuario">Usuario</string>
+    <string name="txt_usuario">Ingrese Usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="txt_password">Ingresa Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="lbl_crear_cuenta">No tienes cuenta? Registrate</string>
+    <!-- Registro -->
+    <string name="titulo_registro">Registrar ususario</string>
+    <string name="lbl_nombres">Nombres</string>
+    <string name="txt_nombres">Ingrese nombres</string>
+    <string name="lbl_apellidos">Apellidos</string>
+    <string name="txt_apellidos">Ingrese Apellidos</string>
+    <string name="lbl_correo">Correo</string>
+    <string name="txt_correo">Ingrese Correo</string>
+    <string name="lbl_password_r">Contraseña</string>
+    <string name="txt_password_r">Ingrese su Contraseña</string>
+    <string name="lbl_confirmar_password">Confirmar contraseña</string>
+    <string name="txt_confirmar">Ingrese Confirmacion de contraseña</string>
+    <string name="btn_registrar">Resgistrar usuario</string>
+    <string name="lbl_go_to_login">Volver a Login</string>
+
+</resources>
