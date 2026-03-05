@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -37,9 +38,12 @@ dependencies {
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
-    implementation 'com.airbnb.android:lottie:3.0.1'
+    implementation 'com.airbnb.android:lottie:3.0.1' // firebase analytucs
+    implementation 'com.google.firebase:firebase-analytics:21.3.0' // animaciones
+    implementation 'com.google.firebase:firebase-auth:22.1.2' // auth firebase
+    implementation 'com.google.firebase:firebase-database:20.2.2' // Lib de base de datos
     implementation libs.play.services.maps
-    implementation libs.firebase.inappmessaging// animaciones
+    implementation libs.firebase.inappmessaging
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
